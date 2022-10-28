@@ -1,0 +1,276 @@
+.page {
+  width: 1440px;
+  margin: auto;
+}
+
+.page_head {
+  display: flex;
+  justify-content: center;
+}
+
+.developer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: 5px;
+  border: solid;
+  border-color: brown;
+  border-radius: 15px;
+  display: inline;
+  position: absolute;
+  top: 40px;
+  left: 146px;
+}
+
+.icon_1 {
+  position: absolute;
+  top: 178px;
+  right: 66px;
+}
+.icon_2 {
+  position: absolute;
+  top: 382px;
+  left: 287px;
+}
+
+.page_headers {
+  color: black;
+  text-decoration: none;
+  margin-right: 16px;
+  margin-top: 40px;
+}
+
+.page_head_elements {
+  font-family: Raleway;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.firstBlock {
+}
+.firstBlock_title {
+  text-align: center;
+  margin-top: 120px;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+.firstBlock_descript {
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+.firstButton {
+  background: black;
+  color: white;
+  width: 252px;
+  height: 36px;
+  margin-left: 494px;
+  margin-top: 80px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.firstButton:hover {
+  opacity: 0.9;
+}
+
+.fakeButton {
+  border: solid;
+  border-radius: 15px;
+  padding: 6px;
+}
+
+.firstBlock_navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1160px;
+  margin: auto;
+}
+.nav_headers {
+  margin-top: 120px;
+  margin-right: 25px;
+  margin-bottom: 44px;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.picts {
+  width: 1160px;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* Не получилось задать расстояние между рядами через align-content: space-between; поэтому сделала через margin-bottom в классе каждой картинки */
+}
+.pict1 {
+  margin-bottom: 40px;
+}
+.pict2 {
+  margin-bottom: 40px;
+}
+
+.secondBlock {
+  width: 1160px;
+  height: 560;
+  margin-left: 160px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.secondBlock_img {
+  float: left;
+}
+
+.secondBlock_text {
+  text-align: center;
+}
+
+.secondBlock_heading {
+  /*  Не получается сделать отступ margin-bottom: 200px; */
+  border: solid;
+  border-color: yellow;
+}
+
+.secondBlock_descript {
+  width: 484px;
+  text-align: left;
+}
+
+.thirdBlock {
+  width: 1440px;
+  height: 768px;
+  background: black;
+}
+
+.thirdBlock_heading {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  /* margin-top: 120px; */
+}
+.thirdBlock_wrapper {
+  width: 1160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdBlock_sub {
+  width: 368px;
+  height: 384px;
+  background: white;
+  margin-top: 80px;
+}
+
+.thirdBlock_sub_heading {
+  color: #181818;
+}
+
+.thirdBlock_sub_descript {
+  color: #181818;
+}
+
+.fourthHeading {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.calculate {
+  border: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #cccccc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+  width: 448px;
+  height: 368px;
+  text-align: center;
+}
+
+.calculate_details {
+  margin-bottom: 24px;
+}
+
+.discuss {
+  border: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  width: 400px;
+  height: 384px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.discuss_button {
+  background: black;
+  color: aliceblue;
+  width: 352px;
+  height: 56px;
+  border-radius: 8px;
+}
+.fourthBlock {
+  width: 1440px;
+  /* height: 1232px; */
+  background: black;
+  margin-top: 120px;
+}
+.fourthBlock_heading {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 120px;
+}
+.fourthBlock_wrapper {
+  background: black;
+  display: flexbox;
+  flex-direction: column;
+  align-content: space-between;
+  padding-bottom: 120px;
+}
+.fourthBlock_wrapper_elements {
+  background: #ffffff;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.fourthBlock_wrapper_heading {
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+.leaveArequest {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+}
+.leaveArequest_elements {
+  display: block;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  /* не понимаю почему не выравнивается по центру  */
+}
